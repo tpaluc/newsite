@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #677788;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  list-style: none;
+}
+
+/*
+.navbar {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: auto;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  align-items: center;
+}
+
+.navbar-nav {
+  justify-content: flex-end;
+  margin-left: auto;
+  flex-grow: 1;
+}
+
+li {
+  display: list-item;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-item {
+  float: left;
+  list-style: none;
+  margin-left: 50px;
+}
+*/
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  background-color: #377dff;
+  border-color: #377dff;
+  padding-top: 1rem;
+  padding-bottom: 0.6125rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  display: inline-block;
+  font-family: Inter, serif;
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.3125rem;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #2f6ad9;
+  border-color: #2c64cc;
+}
+
+.btn:active {
+  color: #fff;
+  background-color: #2f6ad9;
+  border-color: #2c64cc;
+}
+
+.nav-link {
+  display: block;
+  color: #677788;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item-arrow {
+  height: 15px;
+  width: 15px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+}
+
+.submenu:hover {
+  display: block;
+}
+
+.submenu li {
+  width: 100%;
+}
+
+.submenu a {
+  padding: 10px 20px;
+}
+
+.submenu a:hover {
+  background-color: #555;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  color: #377dff;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  color: #1e2022;
+  text-align: center;
+  width: 50%;
+  margin-left: 23%;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #1e2022;
+  text-align: center;
+  width: 50%;
+  margin-left: 23%;
+  margin-top: 50px;
+}
+
+.lead {
+  font-size: 1.75rem;
+  text-align: center;
+  height: 100px;
+  line-height: 3rem;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 50px;
+}
+
+.examples {
+  width: 100%;
+  margin: 60px 30px;
+}
+
+.browser-image {
+  width: 50vw;
+}
+
+.browser-heder-btn-list-btsn {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.pages {
+  border: 1px solid #1e2022;
+  border-radius: 0.3125rem;
+  padding: 5px;
+  font-size: 0.75rem;
+}
+
+/* SEKCJA 3 */
+
+.align-div {
+  margin-top: 100px;
+  display: flex;
+}
+
+.align-div-left {
+  flex: 1;
+  background-color: #fff;
+  padding: 10px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.align-div-right {
+  flex: 1;
+  background-color: #ccc;
+  padding: 10px;
+  margin-right: 50px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 3rem;
+}
+
+.browser-header-browser-bar {
+  background-color: #fff;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-bottom: 10px;
+  border-radius: 0.3215rem;
+}
+
+.browser-text-h2 {
+  margin-top: 80px;
+  color: black;
+}
+
+.browser-text-p {
+  color: black;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+/* STOPKA */
+
+footer {
+  background-color: #21325b;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-row {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex-basis: calc(20% - 20px); /* 20% szerokości z odstępem między kolumnami */
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Dodatkowy styl dla nagłówków kolumn i listy */
+h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.footer-column-element {
+  text-align: left;
+  text-decoration: none;
+}
